@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "properties": {
+    "platform": {
+      "properties": {
+        "web": {
+          "markdownDescription": "Choose capabilities. [See the documentation](https://example.com)",
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": ["chrome", "firefox", "safari", "edge"]
+          }
+        }
+      },
+      "markdownDescription": "Choose Platform to test. [See the documentation](https://example.com)"
+    }
+  }
+}
